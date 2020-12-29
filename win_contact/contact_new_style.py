@@ -110,7 +110,7 @@ def del_contact(file_name, contact_number_for_del):
         if data_str == '': # Если строка пустая выход из цикла.
             file_txt_r.close() # Закрытие файла. 
             if contact_number_for_del > str(contact_number):
-                print('Контакта с таким номером не существует')    
+                print(' Контакта с таким номером не существует')    
             break # Выход из цикла.
         contact_number += 1 # Присваевается номер контакта.
                             # С каждым проходом цикла увеличивается на единицу.
